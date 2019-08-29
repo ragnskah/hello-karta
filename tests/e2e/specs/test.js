@@ -8,6 +8,6 @@ describe('My First Test', () => {
   it('Should link to about page', () => {
     cy.visit('/');
     cy.contains('About').click();
-    cy.contains('h1', 'yo!');
+    cy.contains('h1', 'yo! h1');
   });
 });
